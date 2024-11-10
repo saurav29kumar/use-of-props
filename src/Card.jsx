@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 function Card({values , index, handleClick}){
   const {name,profession,image,friends} = values;
     return(
